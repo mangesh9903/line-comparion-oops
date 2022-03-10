@@ -29,5 +29,6 @@ public class HomeController {
         LineComparator lengthComparator=new LineComparatorImpl();
         lengthComparator.compareUsingEquals(firstLine,secondLine);
 
+        lengthComparator.compareUsingCompareTo(firstLine,secondLine);
     }
 }
